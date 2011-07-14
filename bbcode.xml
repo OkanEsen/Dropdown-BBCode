@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/bbcodes.dtd">
+<data>
+	<import>
+		<bbcode name="dropdown">
+			<classname>DropdownBBCode</classname>
+			<allowedchildren>option</allowedchildren>
+			<attributes>
+				<attribute name="0">
+					<required>0</required>
+				</attribute>
+			</attributes>
+			<sourcecode>0</sourcecode>
+			<wysiwygicon></wysiwygicon>
+		</bbcode>
+
+		<bbcode name="option">
+			<classname>OptionBBCode</classname>
+			<allowedchildren>none</allowedchildren>
+			<attributes>
+				<attribute name="0">
+					<required>0</required>
+				</attribute>
+			</attributes>
+			<attributes>
+				<attribute name="1">
+					<required>0</required>
+				</attribute>
+			</attributes>
+			<attributes>
+				<attribute name="2">
+					<required>0</required>
+				</attribute>
+			</attributes>
+			<sourcecode>0</sourcecode>
+			<wysiwygicon></wysiwygicon>
+		</bbcode>
+	</import>
+</data>

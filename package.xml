@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.okanesen.wcf.data.message.bbcode.dropdown" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Dropdown BBCode]]></packagename>
+		<packagename language="de"><![CDATA[Dropdown BBCode]]></packagename>
+		<packagename language="de-informal"><![CDATA[Dropdown BBCode]]></packagename>
+		<packagedescription>You can use this plugin to use a drop-down list in your topic, signatures etc. pp.</packagedescription>
+		<packagedescription language="de"><![CDATA[Mit diesem Plugin ist es Ihnen möglich, Dropdown-Listen über einen BBCode in Beiträgen, Signaturen etc. zu verwenden.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Mit diesem Plugin ist es Dir möglich, Dropdown-Listen über einen BBCode in Beiträgen, Signaturen etc. zu verwenden.]]></packagedescription>
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2011-03-25</date>
+		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[Okan Esen]]></author>
+		<authorurl><![CDATA[http://www.okan-esen.de]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.0.0">com.woltlab.wcf.data.message.bbcode</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<bbcodes>bbcode.xml</bbcodes>
+	</instructions>
+</package>
