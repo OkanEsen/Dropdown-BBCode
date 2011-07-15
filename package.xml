@@ -8,7 +8,7 @@
 		<packagedescription language="de"><![CDATA[Mit diesem Plugin ist es Ihnen möglich, Dropdown-Listen über einen BBCode in Beiträgen, Signaturen etc. zu verwenden.]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[Mit diesem Plugin ist es Dir möglich, Dropdown-Listen über einen BBCode in Beiträgen, Signaturen etc. zu verwenden.]]></packagedescription>
 		<isunique>1</isunique>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<date>2011-03-25</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 	</packageinformation>
@@ -27,5 +27,9 @@
 		<templates>templates.tar</templates>
 		<eventlistener>eventlistener.xml</eventlistener>
 		<bbcodes>bbcode.xml</bbcodes>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<files>files.tar</files>
 	</instructions>
 </package>
