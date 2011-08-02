@@ -1,10 +1,38 @@
-# Windows
-Thumbs.db # thumbnails
+# Linux
+# backup files
+*~
 
-# OS-X
+# Windows
+# thumbnails
+Thumbs.db
+
+# Mac OS X
+# metadata
 .DS_Store
-._* #thumbnails
+# thumbnails
+._*
+
+# Visual Studio PHP
+*.sln
+*.phpproj
+*.puo
+*.suo
+*.cache
+
+# Eclipse
+.settings/
+.project
+.buildpath
+
+# Netbeans
+nbproject/
+nbactions.xml
 
 # SVN
-.svn/ # svn folders
-de.okanesen.wcf.data.message.bbcode.dropdown.tar
+# svn folders
+.svn/
+
+# Community Framework
+# Ignore packages build directly in the workspace. They can however be added manually via git add, if wanted.
+*.tar
+*.tar.gz
